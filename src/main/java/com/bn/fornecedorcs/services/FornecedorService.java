@@ -21,7 +21,7 @@ public class FornecedorService {
         return fornecedorRepository.findAll();
     }
 
-    public FornecedorModel buscarPorId(Long id) {
+    public FornecedorModel procurarPorId(Long id) {
         return fornecedorRepository.findById(id).get();
     }
 
